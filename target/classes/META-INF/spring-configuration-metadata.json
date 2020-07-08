@@ -1,0 +1,117 @@
+{
+  "groups": [
+    {
+      "name": "netty.websocket",
+      "type": "com.whjinran.standard.NettyWebsocketProperties",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "netty.websocket.all-idle-time-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.allow-half-closure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.boss-loop-group-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.connect-timeout-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.host",
+      "type": "java.lang.String",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.max-frame-payload-length",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.path",
+      "type": "java.lang.String",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.reader-idle-time-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.so-backlog",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.so-keepalive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.so-linger",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.so-rcvbuf",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.so-sndbuf",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.tcp-nodelay",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.use-compression-handler",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.worker-loop-group-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.write-buffer-high-water-mark",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.write-buffer-low-water-mark",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.write-spin-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    },
+    {
+      "name": "netty.websocket.writer-idle-time-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.whjinran.standard.NettyWebsocketProperties"
+    }
+  ],
+  "hints": []
+}

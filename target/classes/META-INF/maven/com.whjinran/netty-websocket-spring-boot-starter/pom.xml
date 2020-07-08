@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.whjinran</groupId>
+	<artifactId>netty-websocket-spring-boot-starter</artifactId>
+	<version>${revision}</version>
+
+	<developers>
+		<developer>
+			<id>jason</id>
+			<name>jason.peng</name>
+			<email>2362741302@qq.com</email>
+			<organization>whjinran</organization>
+			<url>http://www.whjinran.com</url>
+		</developer>
+	</developers>
+
+	<properties>
+		<!-- Project revision -->
+		<revision>1.0.1</revision>
+
+		<project.encoding>UTF-8</project.encoding>
+		<java.version>1.8</java.version>
+
+		<spring-boot.version>2.2.8.RELEASE</spring-boot.version>
+		<netty.version>4.1.50.Final</netty.version>
+		<slf4j.version>1.7.30</slf4j.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<version>${spring-boot.version}</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<version>${spring-boot.version}</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>${netty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>${project.encoding}</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
